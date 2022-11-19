@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeye başlamadan önce react-datepicker dışında paketleri incelediğim için 4-5 saatimi aldı diyebilirim.
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.\
