@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 400px;
+  background-color: silver;
+}
+
+.title {
+  margin-bottom: 60px;
+  font-family: "Russo One";
+}
+
+.calendar {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-datepicker {
+  padding: 20px;
+  border: 1px solid #808080;
+  margin: 0px;
+}
+
+.react-datepicker__day--highlighted-custom-1 {
+  background-color: gray !important;
+  color: #fff !important;
+}
+
+.react-datepicker__day--excluded {
+  background-color: #ef2808 !important;
+  color: #fff !important;
+  z-index: 10;
+}
+
+.react-datepicker__day--highlighted-custom-2 {
+  background-color: orange !important;
+  color: #fff !important;
+  z-index: 10;
+}
+
+.react-datepicker__header {
+  margin-bottom: 40px;
+  font-family: "Russo One";
+  font-size: 15px;
+  background-color: #ffff !important;
+}
